@@ -8,8 +8,8 @@ set -e
 echo "开始构建 Bob 智谱翻译插件..."
 
 # 定义变量
-PLUGIN_NAME="zhipu-nothink"
-VERSION="1.0.0"
+PLUGIN_NAME="zhihu-glm-nothink"
+VERSION="1.0.1"
 SOURCE_DIR="src"
 BUILD_DIR="build"
 DIST_DIR="dist"

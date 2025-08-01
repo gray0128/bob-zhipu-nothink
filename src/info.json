@@ -1,8 +1,8 @@
 {
   "identifier": "com.bobplugin.zhipu-nothink",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "category": "translate",
-  "name": "智谱翻译(无思考)",
+  "name": "智谱 GLM 4.5 翻译 (关闭思考)",
   "summary": "基于智谱 GLM-4.5-Flash 的快速翻译插件，避免触发思考功能以提升翻译速度",
   "icon": "icon.svg",
   "author": "波菠菜",
@@ -26,19 +26,23 @@
       "type": "menu",
       "title": "模型",
       "desc": "选择要使用的智谱模型",
-      "defaultValue": "glm-4-flash",
+      "defaultValue": "glm-4.5-flash",
       "menuValues": [
         {
-          "title": "GLM-4-Flash (推荐)",
-          "value": "glm-4-flash"
+          "title": "GLM-4.5-Flash（免费）",
+          "value": "glm-4.5-flash"
         },
         {
-          "title": "GLM-4-Air",
-          "value": "glm-4-air"
+          "title": "GLM-4.5-Air",
+          "value": "glm-4.5-air"
         },
         {
-          "title": "GLM-4-AirX",
-          "value": "glm-4-airx"
+          "title": "GLM-4.5-AirX",
+          "value": "glm-4.5-airx"
+        },
+        {
+          "title": "GLM-4.5",
+          "value": "glm-4.5"
         }
       ]
     },

@@ -1,5 +1,5 @@
 /**
- * 智谱翻译(无思考) Bob 插件
+ * GLM 4.5 翻译 (关闭思考) Bob 插件
  * 基于智谱 GLM-4.5-Flash 的快速翻译插件，避免触发思考功能以提升翻译速度
  * 
  * @author 波菠菜
@@ -129,10 +129,10 @@ function callZhipuAPI(apiKey, model, messages, temperature, timeout) {
             model: model,
             messages: messages,
             temperature: temperature,
-            max_tokens: 2048,
+            max_tokens: 1024, // 和 Bob 默认的最大长度保持一致
             stream: false,
             // 关键参数：避免触发思考
-            do_sample: false,
+            thinking: {"type": "disabled"},
             top_p: 0.1
         };
         
